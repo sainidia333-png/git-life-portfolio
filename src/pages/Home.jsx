@@ -4,11 +4,11 @@ import profileImg from "../assets/diya.png";
 import { motion } from "framer-motion";
 import FadeUp from "../components/FadeUp";
 import { TypeAnimation } from "react-type-animation";
-import ParticlesBackground from "../components/ParticlesBackground";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0D1117] text-white relative overflow-hidden">
-      <ParticlesBackground />
+     
       <div className="absolute top-20 right-0 w-96 h-96 bg-green-500/10 blur-3xl rounded-full"></div>
 
       <div className="absolute bottom-20 left-0 w-96 h-96 bg-emerald-500/10 blur-3xl rounded-full"></div>
